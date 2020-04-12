@@ -26,4 +26,3 @@ class LearnArraysTest(unittest.TestCase):
     def test_remove_duplicates(self):
         array = [1, 2, 2, 3, 4, 5, 2, 1, 6, 7, 88, 8, 2]
         self.assertEqual(arrays.remove_duplicates(array), [1, 2, 3, 4, 5, 6, 7, 88, 8])
-
