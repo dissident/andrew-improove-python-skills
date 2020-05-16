@@ -1,4 +1,6 @@
 # andrew-improove-python-skills
 educational purposes only
 
-run tests: `python3 -m unittest tests/*_test.py`
+https://github.com/dissident/andrew-improove-python-skills/workflows/Python%20application/badge.svg
+
+run tests: `pytest`
