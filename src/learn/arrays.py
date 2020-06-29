@@ -1,23 +1,32 @@
 def add(array, item):
-    # code here
-    return 0
+    array.append(item) 
+    return array
 
 
 def reverse(array):
-    # code here
-    return 0
+    array.reverse()
+    return array
 
 
 def five_index(array):
-    # code here
-    return 0
-
+    index = 0
+    for ind, x in enumerate(array):
+        print(ind, x)
+        if x == 5:
+            print(ind)
+            index = ind
+            break
+    return index
 
 def add_before_second(array, item):
-    # code here
-    return 0
+    array.insert(1, item)
+    return array
 
 
 def remove_duplicates(array):
-    # code here
-    return 0
+    a = []
+    for x in array:
+        if x not in a:
+            a.append(x)
+    return a
+
